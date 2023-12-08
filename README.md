@@ -1,0 +1,2 @@
+# Betterfox
+Personal firefox profile
