@@ -250,7 +250,7 @@ user_pref("browser.search.suggest.enabled", "true");
 user_pref("gfx.canvas.accelerated", true);
 
 // PREF: disable Firefox Sync
-user_pref("identity.fxaccounts.enabled", false);
+user_pref("identity.fxaccounts.enabled", true);
 
 // PREF: disable Firefox View
 user_pref("browser.tabs.firefox-view", false);
@@ -302,7 +302,8 @@ user_pref("browser.urlbar.autoFill", false);
 
 // PREF: NEW TAB PAGE
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", true);
-user_pref("browser.newtabpage.pinned", [{"url":"https://www.youtube.com","label":"Youtube"},{"url":"https://github.com","label":"Github"},{"url":"https://www.reddit.com","label":"Reddit"},{"url":"https://www.bilibili.com","label":"Bilibili"},{"url":"https://chat.openai.com/chat","label":"ChatGPT"},{"url":"https://www.twitch.tv","label":"Twitch"},{"url":"https://stackoverflow.com","label":"Stack Overflow"},{"url":"https://leetcode.com/","label":"LeetCode"}])
+user_pref("browser.newtabpage.activity-stream.topSitesRows", 2)
+user_pref("browser.newtabpage.pinned", [{"url":"https://github.com","label":"Github","baseDomain":"github.com"},{"url":"https://www.youtube.com","label":"Youtube","baseDomain":"youtube.com"},{"url":"https://www.reddit.com","label":"Reddit","baseDomain":"reddit.com"},{"url":"https://discord.com/app","label":"Discord"},{"url":"https://www.twitch.tv","label":"Twitch"},{"url":"https://www.bilibili.com","label":"Bilibili"},{"url":"https://stackoverflow.com","label":"Stack Overflow"},{"url":"https://scholar.google.com","label":"Scholar"},{"url":"https://translate.google.com/","label":"Translate"},{"url":"https://chat.openai.com/","label":"ChatGPT"},{"url":"https://sci-hub.se","label":"Sci-hub"},{"url":"https://leetcode.com/","label":"Leetcode"},{"url":"https://crates.io/","label":"crates.io"},{"url":"https://course.rs/about-book.html","label":"Rust Course"},{"url":"https://www.baidu.com/","label":"Baidu"},{"url":"https://www.metacritic.com/","label":"Metacritic"}])
 
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
